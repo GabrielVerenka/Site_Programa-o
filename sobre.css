@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+.titulo{
+    color: #004A8D;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.logo {
+    width: 100px;  /* Defina a largura desejada */
+    height: auto;  /* A altura se ajusta proporcionalmente */
+}
+
+/* -------------------------------------- */
+
+.card-inline {
+    display: inline-block;
+    margin-right: 15px; /* Espaço entre cartões */
+    vertical-align: top; /* Alinha os cartões no topo */
+    color: #fff;
+}
+
+.content {
+    min-height: 100vh; /* Garante que o conteúdo ocupe pelo menos a altura da tela */
+    padding-bottom: 60px; /* Espaçamento para o footer */
+}
+
+.footer a {
+    color: #ffffff; /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado dos links */
+    margin: 0 10px; /* Espaçamento entre links */
+}
+.footer a:hover {
+    text-decoration: underline; /* Sublinha os links ao passar o mouse */
+}
+.footer p {
+    margin: 0; /* Remove margens dos parágrafos */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    background-color: #004A8D;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+h1 {
+    margin: 0;
+}
+footer {
+    background-color: #004a8d;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+
+}
